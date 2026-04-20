@@ -1,0 +1,117 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	BasicSword: {
+		DisplayName: Basic Sword
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	MudBossSummon: {
+		DisplayName: Mud Boss Summon
+		Tooltip: Summons Mud Boss
+	}
+
+	Glove: {
+		DisplayName: Glove
+		Tooltip: Summon Eater of souls to fight for you
+	}
+
+	VoidSingularity: {
+		DisplayName: Void Singularity
+		Tooltip: Makes BOOM!
+	}
+
+	ChlorophyteBall: {
+		DisplayName: Chlorophyte Ball
+		Tooltip: Shoots a homing ball
+	}
+
+	VoidFragment: {
+		DisplayName: Void Fragment
+		Tooltip: Increases your stats!
+	}
+
+	DuoPhone: {
+		DisplayName: Duolingo phone
+		Tooltip: You got a new message on your phone...
+	}
+
+	SubsumingVortex: {
+		DisplayName: Subsuming Vortex
+		Tooltip: Shoots vortex
+	}
+
+	VoidYoyo: {
+		DisplayName: Void yoyo
+		Tooltip: Void!
+	}
+
+	VoidstoneCrackItem: {
+		DisplayName: Void stone
+		Tooltip: Mine with lunar pickaxe!
+	}
+
+	VoidEye: {
+		DisplayName: Void eye
+		Tooltip: Summons Void Overseer
+	}
+
+	Pebble: {
+		DisplayName: Pebble
+		Tooltip: Throw pebbles at enemies!
+	}
+
+	ApocalypseClock: {
+		DisplayName: Apocalypse Clock
+		Tooltip: Starts an apocalypse
+	}
+
+	MrStone: {
+		Tooltip: ""
+		DisplayName: Mr Stone
+	}
+
+	KinderEgg: {
+		Tooltip: ""
+		DisplayName: Kinder Egg
+	}
+}
+
+NPCs: {
+	BrimstoneBull.DisplayName: Brimstone Bull
+	ShroomFish.DisplayName: Shroom Fish
+	MudBoss.DisplayName: Mud Boss
+	EvilBall.DisplayName: Evil Ball
+	DestructibleProjectile.DisplayName: Destructible Projectile
+	VoidOverseer.DisplayName: Void Overseer
+	VoidServant.DisplayName: Void Servant
+	DuolingoBoss.DisplayName: Duolingo
+	DuoLeague.DisplayName: Duo League
+}
+
+Projectiles: {
+	ChlorophyteBallProjectile.DisplayName: Chlorophyte Ball Projectile
+	EnormousConsumingVortex.DisplayName: Enormous Consuming Vortex
+	ExoVortex2.DisplayName: Exo Vortex2
+	VoidYoyoProjectile.DisplayName: Void Yoyo Projectile
+	PebbleShot.DisplayName: Pebble Shot
+}
+
+Buffs: {
+	ApocalypseBuff: {
+		DisplayName: Apocalypse Buff
+		Description: x5 spawn rate but -20% speed and regeneration
+	}
+}
+
+Biomes: {
+	VoidBiome: {
+		TownNPCDialogueName: Mods.MyMod.Biomes.VoidBiome.TownNPCDialogueName
+		DisplayName: Mods.MyMod.Biomes.VoidBiome.DisplayName
+	}
+}
