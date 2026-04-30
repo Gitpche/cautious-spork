@@ -1,0 +1,35 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using MyMod.Content.Subworlds;
+
+namespace MyMod.Content.Items
+{
+    public class DimensionTeleporter : ModItem
+    {
+	public override string Texture => "Terraria/Images/Item_" + ItemID.GoldenKey;
+
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useTime = 20;
+            Item.useAnimation = 20;
+
+            Item.rare = ItemRarityID.Blue;
+            Item.value = Item.buyPrice(silver: 10);
+        }
+
+        public override bool? UseItem(Player player)
+        {
+            if (Main.myPlayer == player.whoAmI)
+            {
+                SubworldSystem.Enter<FlatStoneSubworld>();
+            }
+
+            return true;
+        }
+    }
+}
