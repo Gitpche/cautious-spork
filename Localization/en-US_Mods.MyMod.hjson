@@ -1,0 +1,162 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	BasicSword: {
+		DisplayName: Basic Sword
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	MudBossSummon: {
+		DisplayName: Mud Boss Summon
+		Tooltip: Summons Mud Boss
+	}
+
+	Glove: {
+		DisplayName: Glove
+		Tooltip: Summons Eater to fight for you
+	}
+
+	VoidSingularity: {
+		DisplayName: Void Singularity
+		Tooltip: Makes BOOM!
+	}
+
+	ChlorophyteBall: {
+		DisplayName: Chlorophyte Ball
+		Tooltip: Shoots a homing ball
+	}
+
+	VoidFragment: {
+		DisplayName: Void Fragment
+		Tooltip: Increases your stats!
+	}
+
+	DuoPhone: {
+		DisplayName: Duolingo phone
+		Tooltip: You've got a new message on your phone...
+	}
+
+	SubsumingVortex: {
+		DisplayName: Subsuming Vortex
+		Tooltip: Shoots vortex
+	}
+
+	VoidYoyo: {
+		DisplayName: Void yoyo
+		Tooltip: Void!
+	}
+
+	VoidstoneCrackItem: {
+		DisplayName: Void stone
+		Tooltip: Mine with lunar pickaxe!
+	}
+
+	VoidEye: {
+		DisplayName: Void eye
+		Tooltip: Summons Void Overseer
+	}
+
+	Pebble: {
+		DisplayName: Pebble
+		Tooltip: Throw pebbles at enemies!
+	}
+
+	ApocalypseClock: {
+		DisplayName: Apocalypse Clock
+		Tooltip: Starts an apocalypse
+	}
+
+	MrStone: {
+		Tooltip: Fish with Mr. Stone!
+		DisplayName: Mr Stone
+	}
+
+	KinderEgg: {
+		Tooltip: Open it!
+		DisplayName: Kinder Egg
+	}
+
+	SunOfNoReturn: {
+		Tooltip: Starts a solar apocalypse.
+		DisplayName: Sun Of No Return
+	}
+
+	UniverseCrackerStaff: {
+		Tooltip: Shoots a universe collapser
+		DisplayName: Universe Cracker Staff
+	}
+}
+
+NPCs: {
+	BrimstoneBull.DisplayName: Brimstone Bull
+	ShroomFish.DisplayName: Shroom Fish
+	MudBoss.DisplayName: Mud Boss
+	EvilBall.DisplayName: Evil Ball
+	DestructibleProjectile.DisplayName: Destructible Projectile
+	VoidOverseer.DisplayName: Void Overseer
+	VoidServant.DisplayName: Void Servant
+	DuolingoBoss.DisplayName: Duolingo
+	DuoLeague.DisplayName: Duo League
+	VoidSlime.DisplayName: Void Slime
+	VoidEater.DisplayName: Void Eater
+	MiniDevourerTail.DisplayName: Mini Devourer Tail
+	MiniDevourerBody.DisplayName: Mini Devourer Body
+	MiniDevourer.DisplayName: Mini Devourer
+
+	Torgovchik: {
+		DisplayName: Torgovchik
+
+		TownNPCMood: {
+			Content: Я довольный.
+			NoHome: Терпеть не могу, когда у меня нет дома.
+			FarFromHome: Я слишком далеко от дома.
+			LoveSpace: Я люблю, когда так много пространства.
+			DislikeCrowded: Здесь очень людно, мне мешают собирать посылки.
+			HateCrowded: Я ненавижу то, как здесь людно, мои посылки ломают.
+			LikeNPC_Princess: Мне нравится {NPCName}.
+			Princess_LovesNPC: Мне нравится {NPCName}.
+			HateNPC: Я ненавижу {NPCName} — он взрывает мои посылки.
+			HateBiome: Я ненавижу {BiomeName}, там неудобно жить.
+			LoveBiome: Я люблю {BiomeName}, там удобно жить.
+		}
+	}
+
+	Observator.DisplayName: Observator
+}
+
+Projectiles: {
+	ChlorophyteBallProjectile.DisplayName: Chlorophyte Ball Projectile
+	EnormousConsumingVortex.DisplayName: Enormous Consuming Vortex
+	ExoVortex2.DisplayName: Exo Vortex2
+	VoidYoyoProjectile.DisplayName: Void Yoyo Projectile
+	PebbleShot.DisplayName: Pebble Shot
+	UniverseCrackerShot.DisplayName: Universe Cracker Shot
+	AcidProjectile.DisplayName: Acid Projectile
+	LaserProjectile.DisplayName: Laser Projectile
+	LightningProjectile.DisplayName: Lightning Projectile
+	VortexProjectile.DisplayName: Vortex Projectile
+}
+
+Buffs: {
+	ApocalypseBuff: {
+		DisplayName: Apocalypse Buff
+		Description: Ultra fast spawn rate
+	}
+}
+
+Biomes: {
+	VoidBiome: {
+		TownNPCDialogueName: The Void
+		DisplayName: The Void
+	}
+
+	VoidUndergroundBiome: {
+		TownNPCDialogueName: the Void Underground Biome
+		DisplayName: Void Underground Biome
+	}
+}
